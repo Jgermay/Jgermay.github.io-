@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Asmamow Foundation</title>
+  </head>
+  <body>
+    <h1>Asmamow Foundation</h1>
+    <p>Welcome to the Asmamow Foundation website. We are a non-profit organization dedicated to improving the lives of individuals in our community through education and support services.</p>
+    <h2>Our Mission</h2>
+    <p>Our mission is to provide access to education and resources for underserved individuals and communities, with a focus on improving educational outcomes and increasing opportunities for success.</p>
+    <h2>How You Can Help</h2>
+    <p>There are many ways you can support the Asmamow Foundation and make a difference in the lives of others. Some options include:</p>
+    <ul>
+      <li>Donating money or resources</li>
+      <li>Volunteering your time and skills</li>
+      <li>Sharing information about our organization with your network</li>
+    </ul>
+    <h2>Document Upload and Translation</h2>
+    <p>We offer a document upload and translation service to help individuals and organizations communicate effectively with our team. To use this service, simply upload your document using the form below and select the desired language for translation:</p>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <label for="file">Select a file to upload:</label><br>
+      <input type="file" name="file" id="file"><br>
+      <label for="language">Select a language for translation:</label><br>
+      <select name="language" id="language">
+        <option value="english">English</option>
+        <option value="spanish">Spanish</option>
+        <option value="french">French</option>
+      </select><br><br>
+      <input type="submit" value="Submit">
+    </form> 
+  </body>
+</html>
